@@ -13,7 +13,8 @@ class TaskBootcampViewModel: ObservableObject {
     @Published var image2: UIImage? = nil
 
     func fetchImage() async {
-        try? await Task.sleep(nanoseconds: 5_000_000_000)
+//        try? await Task.sleep(nanoseconds: 5_000_000_000)
+        try? await Task.sleep(for: .seconds(5))
         
         
 //        for x in array {

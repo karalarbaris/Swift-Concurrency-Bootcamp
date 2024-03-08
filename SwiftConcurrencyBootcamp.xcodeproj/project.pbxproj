@@ -30,6 +30,7 @@
 		02F3AC2D27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F3AC2C27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift */; };
 		02F717792AB900CB00ADEF69 /* AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F717782AB900CB00ADEF69 /* AsyncStreamBootcamp.swift */; };
 		B9A4EE662B9999A100399250 /* StructClassActorB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4EE652B9999A100399250 /* StructClassActorB.swift */; };
+		B9A4EE692B9B039300399250 /* TaskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4EE682B9B039300399250 /* TaskB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		02F3AC2C27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationBootcamp.swift; sourceTree = "<group>"; };
 		02F717782AB900CB00ADEF69 /* AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootcamp.swift; sourceTree = "<group>"; };
 		B9A4EE652B9999A100399250 /* StructClassActorB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructClassActorB.swift; sourceTree = "<group>"; };
+		B9A4EE682B9B039300399250 /* TaskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,35 @@
 		02F3AC1127E94E8F00DBD20C /* SwiftConcurrencyBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				B9A4EE642B99999200399250 /* self */,
 				02F3AC1227E94E8F00DBD20C /* SwiftConcurrencyBootcampApp.swift */,
+				B9A4EE642B99999200399250 /* self */,
+				B9A4EE672B99A5EF00399250 /* tut */,
+				02F3AC1627E94E9100DBD20C /* Assets.xcassets */,
+				02F3AC1827E94E9100DBD20C /* Preview Content */,
+			);
+			path = SwiftConcurrencyBootcamp;
+			sourceTree = "<group>";
+		};
+		02F3AC1827E94E9100DBD20C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02F3AC1927E94E9100DBD20C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9A4EE642B99999200399250 /* self */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4EE652B9999A100399250 /* StructClassActorB.swift */,
+				B9A4EE682B9B039300399250 /* TaskB.swift */,
+			);
+			path = self;
+			sourceTree = "<group>";
+		};
+		B9A4EE672B99A5EF00399250 /* tut */ = {
+			isa = PBXGroup;
+			children = (
 				02F3AC2027E94EC100DBD20C /* DoCatchTryThrowsBootcamp.swift */,
 				02F3AC2227E956EA00DBD20C /* DownloadImageAsync.swift */,
 				02F3AC2427E9617900DBD20C /* AsyncAwaitBootcamp.swift */,
@@ -110,26 +139,8 @@
 				02931A792A4A64E9001BE6A5 /* SearchableBootcamp.swift */,
 				02F717782AB900CB00ADEF69 /* AsyncStreamBootcamp.swift */,
 				028E66482B66BB5800580761 /* ObservableBootcamp.swift */,
-				02F3AC1627E94E9100DBD20C /* Assets.xcassets */,
-				02F3AC1827E94E9100DBD20C /* Preview Content */,
 			);
-			path = SwiftConcurrencyBootcamp;
-			sourceTree = "<group>";
-		};
-		02F3AC1827E94E9100DBD20C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				02F3AC1927E94E9100DBD20C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B9A4EE642B99999200399250 /* self */ = {
-			isa = PBXGroup;
-			children = (
-				B9A4EE652B9999A100399250 /* StructClassActorB.swift */,
-			);
-			path = self;
+			path = tut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +171,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					02F3AC0E27E94E8F00DBD20C = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -213,6 +224,7 @@
 				027E7C9727F680B9009B9D4F /* StructClassActorBootcamp.swift in Sources */,
 				02F3AC2727E96CD200DBD20C /* TaskBootcamp.swift in Sources */,
 				02AF489F27FBCFFB00D67D2F /* GlobalActorBootcamp.swift in Sources */,
+				B9A4EE692B9B039300399250 /* TaskB.swift in Sources */,
 				02F3AC2527E9617900DBD20C /* AsyncAwaitBootcamp.swift in Sources */,
 				02AF48A327FBE2EC00D67D2F /* AsyncPublisherBootcamp.swift in Sources */,
 				02F3AC1327E94E8F00DBD20C /* SwiftConcurrencyBootcampApp.swift in Sources */,
@@ -266,6 +278,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -327,6 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
