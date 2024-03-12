@@ -30,6 +30,7 @@
 		02F3AC2D27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F3AC2C27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift */; };
 		02F717792AB900CB00ADEF69 /* AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F717782AB900CB00ADEF69 /* AsyncStreamBootcamp.swift */; };
 		B9186F8F2B9F70AA009B3020 /* AsyncLetB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9186F8E2B9F70AA009B3020 /* AsyncLetB.swift */; };
+		B9186F912BA07CB6009B3020 /* TaskGroupB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9186F902BA07CB6009B3020 /* TaskGroupB.swift */; };
 		B9A4EE662B9999A100399250 /* StructClassActorB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4EE652B9999A100399250 /* StructClassActorB.swift */; };
 		B9A4EE692B9B039300399250 /* TaskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4EE682B9B039300399250 /* TaskB.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		02F3AC2C27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationBootcamp.swift; sourceTree = "<group>"; };
 		02F717782AB900CB00ADEF69 /* AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootcamp.swift; sourceTree = "<group>"; };
 		B9186F8E2B9F70AA009B3020 /* AsyncLetB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetB.swift; sourceTree = "<group>"; };
+		B9186F902BA07CB6009B3020 /* TaskGroupB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupB.swift; sourceTree = "<group>"; };
 		B9A4EE652B9999A100399250 /* StructClassActorB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructClassActorB.swift; sourceTree = "<group>"; };
 		B9A4EE682B9B039300399250 /* TaskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				B9A4EE652B9999A100399250 /* StructClassActorB.swift */,
 				B9A4EE682B9B039300399250 /* TaskB.swift */,
 				B9186F8E2B9F70AA009B3020 /* AsyncLetB.swift */,
+				B9186F902BA07CB6009B3020 /* TaskGroupB.swift */,
 			);
 			path = self;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				02F3AC2127E94EC100DBD20C /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				02AF48A127FBDD8800D67D2F /* SendableBootcamp.swift in Sources */,
 				02AF489D27FBC3E600D67D2F /* ActorsBootcamp.swift in Sources */,
+				B9186F912BA07CB6009B3020 /* TaskGroupB.swift in Sources */,
 				02931A7A2A4A64E9001BE6A5 /* MVVMBootcamp.swift in Sources */,
 				02F3AC2D27EAAC8E00DBD20C /* CheckedContinuationBootcamp.swift in Sources */,
 				B9A4EE662B9999A100399250 /* StructClassActorB.swift in Sources */,
