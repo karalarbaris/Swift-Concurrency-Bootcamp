@@ -34,6 +34,7 @@
 		B92BE3932BA1A68A005EABBF /* CheckedContinuationB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BE3922BA1A68A005EABBF /* CheckedContinuationB.swift */; };
 		B9A4EE662B9999A100399250 /* StructClassActorB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4EE652B9999A100399250 /* StructClassActorB.swift */; };
 		B9A4EE692B9B039300399250 /* TaskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4EE682B9B039300399250 /* TaskB.swift */; };
+		B9E869872C04F689004CF3F1 /* ActorsB.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E869862C04F689004CF3F1 /* ActorsB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		B92BE3922BA1A68A005EABBF /* CheckedContinuationB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationB.swift; sourceTree = "<group>"; };
 		B9A4EE652B9999A100399250 /* StructClassActorB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructClassActorB.swift; sourceTree = "<group>"; };
 		B9A4EE682B9B039300399250 /* TaskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskB.swift; sourceTree = "<group>"; };
+		B9E869862C04F689004CF3F1 /* ActorsB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				B9186F8E2B9F70AA009B3020 /* AsyncLetB.swift */,
 				B9186F902BA07CB6009B3020 /* TaskGroupB.swift */,
 				B92BE3922BA1A68A005EABBF /* CheckedContinuationB.swift */,
+				B9E869862C04F689004CF3F1 /* ActorsB.swift */,
 			);
 			path = self;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				02F3AC2527E9617900DBD20C /* AsyncAwaitBootcamp.swift in Sources */,
 				02AF48A327FBE2EC00D67D2F /* AsyncPublisherBootcamp.swift in Sources */,
 				02F3AC1327E94E8F00DBD20C /* SwiftConcurrencyBootcampApp.swift in Sources */,
+				B9E869872C04F689004CF3F1 /* ActorsB.swift in Sources */,
 				B9186F8F2B9F70AA009B3020 /* AsyncLetB.swift in Sources */,
 				02931A7E2A4A64E9001BE6A5 /* SearchableBootcamp.swift in Sources */,
 				02931A7F2A4A65EA001BE6A5 /* StrongSelfBootcamp.swift in Sources */,
